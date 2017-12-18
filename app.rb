@@ -18,7 +18,7 @@ module FormsLab
         Ship.new(details)
       end
       @ships=Ship.all
-      puts @ships
+      puts @ships[0]
       erb :show
     end
 
